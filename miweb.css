@@ -1,0 +1,182 @@
+/*
+Código CSS miweb.css
+
+font-family: 'Fredoka One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+header {
+    background: #101D23;
+    width: 100%;
+    height: 65px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content:space-between;
+}
+
+footer{
+    background-color: #101D23;
+    width: 100%;
+    font-size: 75%;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a{
+    position: relative;
+    color: #019BF2;
+    text-decoration: none;
+    float: right;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu a:hover{
+    background-color: #019BF2;
+    color: black;
+}  
+
+.tituloprincipal {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  margin: 10px;
+
+}
+
+.logo {
+    width: 145px;
+    margin: 10px 0 10px 65px;
+}
+
+.caja_carrusel {
+    width: 100%;
+    background-color: #F4F4F3;
+    margin: auto;
+    position:relative;
+    display: inline-block;
+    justify-content: center;
+}
+
+.img_carrusel{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+
+}
+.tit_carrusel{
+    color: red;
+    font-weight: 100;
+    font-size: 80px;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    padding-top:20px;
+}
+
+.text_carrusel{
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 30px; 
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    padding-top:10px;
+}
+
+.caja_nosotros {
+    background-color: #101D23;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.tit_nosotros, .tit_agenda{
+  color: #019BF2;
+  font-size: 20px;
+  letter-spacing: 4.17px;
+  text-align: center;
+  padding-top: 10px;    
+  padding-bottom: 20px;
+}
+
+.sub_nosotros, .sub_agenda{
+  color: #FAFAFA;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 10px;    
+  padding-bottom: 20px;
+}
+
+.text_nosotros{
+  color: #FAFAFA;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;    
+}
+
+.caja_agenda {
+  background-color: #F4F4F3;
+  width: 100%;
+  height: 400px;
+}
+
+.sub_agenda{
+  color: #101D23;
+}
+.separador1{
+    height: 1px;
+    clear: both;
+}
+
+
+.contentImgFull{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.line-2 {
+  border: 1px solid #4A4A4A;
+}
+
+
+/*.carrusel{
+    transition: all 0.5s ease;
+}
+
+.carrusel:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+}*/
+
+
+
+
+
+
